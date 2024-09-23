@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/* header and nav style starts here */
+
+
+header{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 40%, rgba(148,233,151,0.23021708683473385) 82%);
+    height: 80px;
+    color: black;
+
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 30px;
+    height: 100;
+}
+
+.navitems{
+    display: flex;
+    gap: 60px;
+}
+.navitems li{
+    font-size: 22px;
+    font-weight: 800;
+    list-style: none;
+}
+
+li :hover{
+    background-color: black;
+    height: 25px;
+    width: auto;
+    padding: 4px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.navitems a{
+    color: rgb(182, 127, 255);
+    text-decoration: none;
+}
+.hero{
+
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,74,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 30px;
+    height: 100;
+}
+
